@@ -84,5 +84,5 @@
     enabled: true
 
 # - include: configure.yml
-- include: packages.yml
-- include: users.yml
+- include_tasks: packages.yml
+- include_tasks: users.yml
